@@ -131,25 +131,26 @@ img {
  /*Tablet*/
  @media screen and (max-width:768px) {
     .container{
-        width: 768px;
+        width: 100%;
     }
  }
 
  /*Mobile*/
  @media screen and (max-width:480px) {
     .container{
-        width: 480px;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
     }
     .row{
         display: flex;
         flex-wrap: wrap;
-        align-content: center;
-        flex-direction: column;
-        justify-content: center;
     }
-    .col{
+    .lessons .col{
+        width: 100%;
+    }
+    .steps .col{
         width: 100%;
     }
  }
+
+ /*bonus*/
+ 
