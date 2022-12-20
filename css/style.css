@@ -153,4 +153,8 @@ img {
  }
 
  /*bonus*/
- 
+ /*@media screen and (max-width:1160px) and (min-width:768px) {
+    .container{
+        width: 100%;
+    }
+ }
